@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: dim_taxis
+    description: Dimension table containing all taxis.
+    columns:
+
+     - name: taxi_id
+       description: The unique identifier of a taxi vehicle.
+       tests:
+        - not_null
+
+     - name: company
+       description: The name of the company the taxi belongs to.
+       tests:
+        - not_null
+
+  - name: fct_taxi_trips
+    description: Fact table where each row represents one taxi trip.
+    columns:
+
+     - name: trip_id
+       description: The Primary Key.
+       tests:
+        - not_null
+
+     - name: taxi_id
+       description: Foreign Key for the dim_taxis table.
+       tests:
+        - not_null

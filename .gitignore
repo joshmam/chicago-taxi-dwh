@@ -1,0 +1,6 @@
+.env
+.ipynb_checkpoints/
+ELT_Connector.ipynb_checkpoints/
+analysis/
+dbt/venv/
+dbt/logs/

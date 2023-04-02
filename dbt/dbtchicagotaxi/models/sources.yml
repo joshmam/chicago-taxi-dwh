@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+ - name: chicago_raw
+   schema: raw
+   tables:
+    - name: taxi_trips
+      identifier: raw_taxi_trips
