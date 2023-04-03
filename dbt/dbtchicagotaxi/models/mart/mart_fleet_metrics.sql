@@ -1,0 +1,1 @@
+-- purpose: taxi trips aggregated by day and unique taxi vehicle, such as distance_travelled, total_trip_time, and revenue_generated

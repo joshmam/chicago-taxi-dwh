@@ -28,3 +28,12 @@ models:
        description: Foreign Key for the dim_taxis table.
        tests:
         - not_null
+
+  - name: mart_core_metrics
+    description: Taxi trip metrics by day with date, day, month, year, and payment type. For basic reporting.
+
+  - name: mart_detailed_metrics
+    description: Taxi trip metrics with many more dimensions for many reporting requirements.
+
+  - name: mart_fleet_metrics
+    description: Fleet metrics by day and taxi.
